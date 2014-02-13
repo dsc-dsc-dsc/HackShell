@@ -10,6 +10,8 @@ def main():
     global currentdir
     PS1 = username + "@HackShell:" + currentdir + "$ "
     unp = raw_input(PS1)
+    if len(unp) == 0:
+        return    
     chk = unp.split()[0]
     if chk == "exit":
         exit()
