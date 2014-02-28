@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/env python2
 import sys
 print "Welcome to HackShell v1.0"
 username = raw_input("Please enter your username: ")
